@@ -1,0 +1,20 @@
+{
+    "name": "drupal/drupal-settings",
+    "description": "Create a set of settings for drupal",
+    "type": "drupal-console-library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Daniel Noyola",
+            "email": "danielnv18@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Drupal\\DrupalSettings\\": "src"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "drupal/console-core": "~1.0"
+    }
+}
