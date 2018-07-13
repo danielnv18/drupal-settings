@@ -1,5 +1,5 @@
 {
-    "name": "drupal/drupal-settings",
+    "name": "drupal-settings/drupal-settings",
     "description": "Create a set of settings for drupal",
     "type": "drupal-console-library",
     "license": "GPL-2.0+",
@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"DrupalSettings\\Composer\\": "src"}
+        "psr-4": {"DrupalSettings\\": "src"}
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
