@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Drupal\\DrupalSettings\\": "src"}
+        "psr-4": {"DrupalSettings\\Composer\\": "src"}
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
