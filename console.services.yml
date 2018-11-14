@@ -1,0 +1,6 @@
+services:
+    drupal_settings.settings_init:
+        class: \DrupalSettings\Settings\Command\InitCommand
+        arguments: ['@app.root', '@?console.root']
+        tags:
+        - { name: drupal.command, bootstrap: uninstall }
